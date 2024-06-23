@@ -25,18 +25,6 @@ TARGET_DISABLE_EPPE := true
 # Blur effect
 TARGET_ENABLE_BLUR := false
 
-# Matrixx Stuff
-MATRIXX_BUILD_TYPE := SHAWK
-MATRIXX_CHIPSET := SM6125
-MATRIXX_BATTERY := 4000mAh
-MATRIXX_DISPLAY :=  1080x2340
-MATRIXX_MAINTAINER := eklerismunir
-
-# Exclude prebuilt apps
-TARGET_EXCLUDES_AUDIOFX := true
-TARGET_EXCLUDES_AUXIO := true
-TARGET_EXCLUDES_VIA := true
-
 # Device identifier
 PRODUCT_NAME := lineage_ginkgo
 PRODUCT_DEVICE := ginkgo
